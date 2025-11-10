@@ -15,7 +15,7 @@ api = Api(app)
 
 app.config['MONGO_DBName'] = 'stars'
 # Change the MONGO_URI with provided connection String in Canvas
-app.config['MONGO_URI'] = 'mongodb://userName:password@MongoDBServer_ProficedIn_Canvas:27017/database_name'
+app.config['MONGO_URI'] = 'mongodb+srv://kaikurita6_db_user:kai040507@cluster0.dkx5wf5.mongodb.net/stars?appName=Cluster0'
 mongo = PyMongo(app)
 
 @app.route('/star', methods=['GET'])
